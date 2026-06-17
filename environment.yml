@@ -1,0 +1,22 @@
+name: eesunet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision
+  - pytorch-cuda=11.8
+  - numpy
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - pip
+  - pip:
+      - nibabel
+      - SimpleITK
+      - monai
